@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">અમેઝિંગ સ્ટાર</string>
+    <string name="google_maps_key" translatable="false">AIzaSyDkzVKRY-iN6sW9tLcFynJFyaVFkhaKMcM</string>
+    <string name="google_fcm_server_key" translatable="false">AAAAY_GeL2E:APA91bFICCM3RnpEA7NUdJhTrT4_wj8N6YSPoIEY4qqKmU0hOjY5SMrLZtjt8v0JeW4aY3Ezl3Xv5Cm9GWbij-nh4n26mPQ3_AmP6dnFUJJiqrM4sNDUFxjBKGz-3yVQUZaI9bsdY2Rs</string>
+    <string name="connection_title">ઇન્ટરનેટ કનેક્શન નથી</string>
+    <string name="connection_not_available">એવું લાગે છે કે તમે ઇન્ટરનેટથી કનેક્ટેડ નથી. કૃપા કરીને તમારી નેટવર્ક સેટિંગ્સ તપાસો.</string>
+    <string name="btn_ok">ઓકે</string>
+    <string name="hint_email_signup">ઇમેઇલ</string>
+    <string name="forgot_PIN">પિન ભૂલી ગયા છો?</string>
+    <string name="or"><b><u>અથવા</u></b></string>
+    <string name="st_signup">સાઇન અપ કરો</string>
+    <string name="st_sign_in_reg">સાઇન ઇન</string>
+
+    <string name="logout_msg">શું તમે ખરેખર લૉગઆઉટ કરવા માંગો છો?</string>
+    <string name="btn_yes">હા</string>
+    <string name="btn_no">ના</string>
+    <string name="menu">મેનુ</string>
+    <!-- Buttons strings -->
+
+    <!-- Error strings -->
+
+    <!-- Transition type strings -->
+
+    <string name="clear">Clear</string>
+
+    <string name="nav_home">હોમ</string>
+    <string name="nav_orders">ઓર્ડર</string>
+    <string name="nav_delivery">ડિલિવરી</string>
+    <string name="nav_profile">પ્રોફાઇલ</string>
+
+    <string name="permission_setting">પરવાનગી સેટિંગ</string>
+    <string name="settings">સેટિંગ્સ</string>
+    <string name="setting">સેટિંગ</string>
+    <string name="back">Back</string>
+    <string name="retry">ફરી પ્રયાસ કરો</string>
+    <string name="need_permission_title">Need permission(s)</string>
+    <string name="err_need_permission_msg">તમે પહેલાં આ પરવાનગીને નકારી દીધી છે. \n તમારે તમારા ઉપકરણ પરની એપ્લિકેશન સેટિંગ્સમાં આ પરવાનગીને \ "પરવાનગી" માં માન્ય કરવી આવશ્યક છે.</string>
+    <string name="btn_cancel">રદ કરો</string>
+    <string name="msg_session_time_out">Session Time Out</string>
+    <string name="err_pass">માન્ય પાસવર્ડ દાખલ કરો</string>
+    <string name="err_pass_min">પાસવર્ડનું ન્યુનતમ અક્ષર 7 હોવું આવશ્યક છે</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="log_out">લૉગ આઉટ</string>
+    <string name="search">શોધો</string>
+    <string name="edit">સંપાદિત કરો</string>
+    <string name="choose_gallery">ગેલેરીમાંથી પસંદ કરો</string>
+    <string name="choose_camera">કેમેરાથી લો</string>
+    <string name="pending">બાકી</string>
+    <string name="err_select_image">છબી પસંદ કરો</string>
+    <string name="options">વિકલ્પો</string>
+    <string name="down">Drop Down</string>
+    <string name="home">હોમ</string>
+
+    <string name="google">Google</string>
+    <string name="user_profile_name">Marie Jane</string>
+    <string name="email_id">marie@gmail.com</string>
+    <string name="select_shop">દુકાન પસંદ કરો</string>
+    <string name="shop_list">દુકાનની સૂચિ</string>
+    <string name="addshop">દુકાન ઉમેરો</string>
+    <string name="shop_profile">દુકાન પ્રોફાઇલ</string>
+    <string name="user_profile">વપરાશકર્તા પ્રોફાઇલ</string>
+    <string name="maintenance">મેઈનટેનન્સ</string>
+    <string name="add_maintenance">મેઈનટેનન્સ ઉમેરો</string>
+    <string name="parking">પાર્કિંગ</string>
+    <string name="hisab">હિસાબ</string>
+    <string name="users">વપરાશકર્તાઓ</string>
+    <string name="add_payment">ચુકવણી ઉમેરો</string>
+    <string name="add_employee">એમ્પ્લોય ઉમેરો</string>
+    <string name="add_events">ઇવેન્ટ્સ ઉમેરો</string>
+    <string name="employers_list">એમ્પ્લોયર્સની સૂચિ</string>
+    <string name="employers_profile">એમ્પ્લોયનું પ્રોફાઇલ</string>
+    <string name="complainst_list">ફરિયાદની સૂચિ</string>
+    <string name="add_complainst">ફરિયાદ ઉમેરો</string>
+    <string name="edit_complainst">ફરિયાદ સંપાદિત કરો</string>
+    <string name="employers">એમ્પ્લોયર્સ</string>
+    <string name="complaints">ફરિયાદો</string>
+    <string name="events">ઇવેન્ટ્સ</string>
+    <string name="welcome_to">સ્વાગત છે</string>
+    <string name="amazing_star">અમેઝિંગ સ્ટારમા</string>
+    <string name="login_with_gmail">ગૂગલ સાથે લોગિન કરો</string>
+    <string name="power_by">Developed By</string>
+    <string name="www_kartuminfotech_com"><u>www.kartuminfotech.com</u></string>
+    <string name="hello_everyone">Hello Everyone \nAll members announced today meeting for \nમેઈનટેનન્સ so pleace come on time.</string>
+    <string name="shop_image_is_required">દુકાનનો ફોટો આવશ્યક છે</string>
+    <string name="shop_name_required">દુકાનનું નામ આવશ્યક છે</string>
+    <string name="shop_number_is_required">દુકાન નંબર આવશ્યક છે</string>
+    <string name="employee_image_is_required">એમ્પ્લોયની છબી આવશ્યક છે</string>
+    <string name="employee_name_is_required">એમ્પ્લોયનું નામ આવશ્યક છે</string>
+    <string name="amount_field_is_required">રકમની ફિલ્ડ આવશ્યક છે</string>
+    <string name="employee_number_is_required">એમ્પ્લોયનો નંબર આવશ્યક છે</string>
+    <string name="events_title">ઇવેન્ટનું ટાઈટલ આવશ્યક છે</string>
+    <string name="events_detail">ઇવેન્ટ ડીટેઈલ્સ આવશ્યક છે</string>
+    <string name="vehicle_type_not_selected">વાહનનો પ્રકાર પસંદ કરેલ નથી</string>
+    <string name="vehicle_number_is_required">વાહનનો નંબર આવશ્યક છે</string>
+    <string name="complaint_field_required">ફરિયાદની ફિલ્ડ આવશ્યક છે</string>
+    <string name="amount_is_required">રકમની ફિલ્ડ આવશ્યક છે</string>
+    <string name="month_required">મહિનો ફિલ્ડ આવશ્યક છે</string>
+    <string name="date_required">તારીખ ફિલ્ડ આવશ્યક છે</string>
+    <string name="select_employer_service">એમ્પ્લોય સર્વિસ પસંદ કરો</string>
+    <string name="maintenance_amount_field_required">મેઈનટેનન્સ રકમની ફિલ્ડ આવશ્યક છે</string>
+
+    <string-array name="items_spinner_add">
+        <item>એમ્પ્લોય સર્વિસ પસંદ કરો</item>
+        <item>વોચમેન</item>
+        <item>ક્લીનર</item>
+        <item>પ્લમ્બર</item>
+    </string-array>
+
+    <string-array name="items_spinner_off">
+        <item>કૃપા કરીને તમારી દુકાન પસંદ કરો</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+    </string-array>
+
+    <string-array name="items_spinner_mon">
+        <item>મહિનો પસંદ કરો</item>
+        <item>જાન્યુઆરી</item>
+        <item>ફેબ્રુઆરી</item>
+        <item>માર્ચ</item>
+        <item>એપ્રિલ</item>
+        <item>મે</item>
+        <item>જૂન</item>
+        <item>જુલાઈ</item>
+        <item>ઓગસ્ટ</item>
+        <item>સપ્ટેમ્બર</item>
+        <item>ઓક્ટોબર</item>
+        <item>નવેમ્બર</item>
+        <item>ડિસેમ્બર</item>
+    </string-array>
+
+    <string-array name="items_spinner_name">
+        <item>Select Employee Name</item>
+        <item>Bharatbhai(Watchman)</item>
+        <item>Darshanbhai(Cleaner)</item>
+        <item>RahulBhai(Plumber)</item>
+    </string-array>
+
+    <string-array name="items_spinner_payment">
+        <item>પગાર</item>
+        <item>ઉપાડ</item>
+    </string-array>
+
+    <string-array name="items_spinner_type">
+        <item>પાર્કિંગ</item>
+        <item>શૌચાલય</item>
+        <item>સફાઇ</item>
+        <item>પાણી</item>
+        <item>લાઇટ</item>
+        <item>લિફ્ટ</item>
+    </string-array>
+
+    <string name="add_vehicle">વાહન ઉમેરો</string>
+    <string name="edit_vehicle">વાહન સંપાદિત કરો</string>
+    <string name="cycle">સાઇકલ</string>
+    <string name="rickshaw">રીક્ષા</string>
+    <string name="_4_wheel">4 વ્હીલ</string>
+    <string name="_2_wheel">2 વ્હીલ</string>
+    <string name="vehicle_type">વાહનનો પ્રકાર</string>
+    <string name="enter_vehicle_number">વાહન નંબર દાખલ કરો</string>
+    <string name="vehicle_number">વાહન નંબર</string>
+    <string name="office">ઓફિસ</string>
+    <string name="enter_your_vehicle_image">તમારા વાહનનો ફોટો દાખલ કરો</string>
+    <string name="add_employer_profile">એમ્પ્લોય પ્રોફાઇલ ઉમેરો</string>
+    <string name="full_name">પૂરું નામ</string>
+    <string name="shop_name">દુકાનનું નામ</string>
+    <string name="shop_no">દુકાન નંબર</string>
+    <string name="phone">ફોન</string>
+    <string name="select_service">સર્વિસ પસંદ કરો</string>
+    <string name="enter_employer_name">એમ્પ્લોયનું નામ દાખલ કરો</string>
+    <string name="enter_phone_number">ફોન નંબર દાખલ કરો</string>
+    <string name="enter_shop_name">દુકાનનું નામ દાખલ કરો</string>
+    <string name="enter_shop_no">દુકાન નંબર દાખલ કરો</string>
+    <string name="employer_name">એમ્પ્લોયનું નામ</string>
+    <string name="payment_type">ચુકવણીના પ્રકારો</string>
+    <string name="amount">રકમ</string>
+    <string name="enter_your_amount">તમારી રકમ દાખલ કરો</string>
+    <string name="complaint_type">ફરિયાદના પ્રકાર</string>
+    <string name="your_complaint">તમારી ફરિયાદ</string>
+    <string name="enter_your_complaint_in_deail">તમારી ફરિયાદ વિગતવાર દાખલ કરો</string>
+    <string name="add_image">ફોટો ઉમેરો</string>
+    <string name="comp_image">ફરિયાદની ફોટો</string>
+    <string name="attach_image_here">અહીં ફોટો જોડો</string>
+    <string name="cleaing">સફાઇ</string>
+    <string name="a_complainst">A Complaint was filed before as well against the\ncleaing service provider. But we did not have any\npositive reponse or improvemnet.</string>
+    <string name="mobile_app_amp_web_devlopment"><![CDATA[Mobile App & Web Devlopment]]></string>
+    <string name="pay_mainteance">મેઈનટેનન્સ ભરો</string>
+    <string name="month">મહિનો</string>
+    <string name="please_enter_amount">કૃપા કરીને રકમ દાખલ કરો</string>
+    <string name="dd_mm_yyy">DD/MM/YYYY</string>
+    <string name="kartum_infotech">Kartum Infotech</string>
+    <string name="shop_number">દુકાન નંબર</string>
+    <string name="shop_holder">દુકાન ધરાવનાર</string>
+    <string name="bhavesh_hirpara">Bhavesh Hirpara</string>
+    <string name="owner">માલિક</string>
+    <string name="record">રેકોર્ડ</string>
+    <string name="continue_btn">ચાલુ રાખો</string>
+    <string name="pay_now">હવે પે કરો</string>
+    <string name="add">ઉમેરો</string>
+
+    <string-array name="items_spinner_office">
+        <item>ઓફિસ પસંદ કરો</item>
+        <item>ઓફિસ</item>
+        <item>એપાર્ટમેન્ટ</item>
+    </string-array>
+
+    <string-array name="radio_buttons">
+        <item>button_1</item>
+        <item>button_2</item>
+        <item>button_3</item>
+        <item>button_4</item>
+        <item>button_5</item>
+    </string-array>
+    <string name="ok">ઓકે</string>
+    <string name="january">જાન્યુઆરી</string>
+    <string name="february">ફેબ્રુઆરી</string>
+    <string name="march">માર્ચ</string>
+    <string name="april">એપ્રિલ</string>
+    <string name="may">મે</string>
+    <string name="june">જૂન</string>
+    <string name="july">જુલાઈ</string>
+    <string name="august">ઓગસ્ટ</string>
+    <string name="september">સપ્ટેમ્બર</string>
+    <string name="october">ઓક્ટોબર</string>
+    <string name="november">નવેમ્બર</string>
+    <string name="december">ડિસેમ્બર</string>
+    <string name="all">બધા</string>
+    <string name="add_events_title">ઇવેન્ટ્સનું ટાઈટલ ઉમેરો</string>
+    <string name="events_titles">ઇવેન્ટ્સનું ટાઈટલ</string>
+    <string name="events_details">ઇવેન્ટ્સની ડીટેઈલ</string>
+    <string name="enter_events_title">ઇવેન્ટ્સનું ટાઈટલ દાખલ કરો</string>
+    <string name="may_5_2020_10_30_am">May 5, 2020 @ 10:30 AM</string>
+    <string name="please_choose_your_office">કૃપા કરીને તમારી ઓફિસ પસંદ કરો</string>
+    <string name="credit">જમા</string>
+    <string name="debit">ડેબીટ</string>
+    <string name="update">સફળતાપૂર્વક અપડેટ કરો</string>
+    <string name="your_account_is_sent_for_approval">તમારું એકાઉન્ટ મંજૂરી માટે મોકલવામાં આવ્યું છે.</string>
+    <string name="edit_profile">પ્રોફાઇલ સંપાદિત કરો</string>
+    <string name="please_enter_number_of_employee">કૃપા કરીને કર્મચારીની સંખ્યા દાખલ કરો</string>
+    <string name="please_enter_square_feet">કૃપા કરી સ્ક્વેર ફીટ દાખલ કરો</string>
+    <string name="emp">એમ્પ્લોયર</string>
+    <string name="square_feet">સ્ક્વેર ફીટ</string>
+    <string name="please_enter_owner_phone">કૃપા કરીને માલિકનો ફોન દાખલ કરો</string>
+    <string name="owner_phone">માલિકનો ફોન</string>
+    <string name="please_enter_owner_email">કૃપા કરીને માલિકની ઇમેઇલ દાખલ કરો</string>
+    <string name="owner_email">માલિકની ઇમેઇલ</string>
+    <string name="please_enter_owner_name">કૃપા કરીને માલિકનું નામ દાખલ કરો</string>
+    <string name="owner_name">માલીકનું નામ</string>
+    <string name="please_enter_holder_phone">કૃપા કરીને ધારકનો ફોન નંબર દાખલ કરો</string>
+    <string name="holder_phone">ધારક ફોન નંબર</string>
+    <string name="please_enter_holder_email">કૃપા કરીને ધારકની ઇમેઇલ દાખલ કરો</string>
+    <string name="holder_email">ધારકનો ઇમેઇલ</string>
+    <string name="please_enter_holder_occupation">કૃપા કરીને ધારકનો વ્યવસાય દાખલ કરો</string>
+    <string name="holder_occupation">ધારકનો વ્યવસાય</string>
+    <string name="please_enter_holder_name">કૃપા કરીને ધારકનું નામ દાખલ કરો</string>
+    <string name="holder_name">ધારકનું નામ</string>
+    <string name="vehicle_image_is_required">વાહનની છબી આવશ્યક છે</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="processing">પ્રોસેસીંગ</string>
+    <string name="this_shop_is_already_available">આ દુકાન પહેલેથી જ ઉપલબ્ધ છે</string>
+    <string name="complaint_images">ફરિયાદ છબીઓ</string>
+    <string name="phone_validation">માન્ય ફોન નંબર દાખલ કરો</string>
+    <string name="enter_shop_number">દુકાન નંબર દાખલ કરો</string>
+    <string name="delete">કાઢી નાખો</string>
+    <string name="edit_event">ઇવેન્ટ સંપાદિત કરો</string>
+    <string name="this_shop_number_is_already_available">આ દુકાન નંબર પહેલેથી જ ઉપલબ્ધ છે</string>
+    <string name="enter_maintenance_amount"> મેઈનટેનન્સ રકમ દાખલ કરો </string>
+    <string name="maintenance_amount">મેઈનટેનન્સ રકમ</string>
+    <string name="other">અન્ય</string>
+    <string name="isowner">માલિક છો?</string>
+    <string name="select_your_shop">તમારી દુકાન પસંદ કરો</string>
+    <string name="payment_info">ચુકવણીની માહિતી</string>
+    <string name="date">તારીખ</string>
+    <string name="all_complaints">બધી ફરિયાદો</string>
+    <string name="my_complaints">મારી ફરિયાદો</string>
+    <string name="toilet">શૌચાલય</string>
+    <string name="water">પાણી</string>
+    <string name="light">લાઇટ</string>
+    <string name="lift">લિફ્ટ</string>
+    <string name="resolved">ઉકેલો</string>
+    <string name="cancelled">રદ કરો</string>
+    <string name="date_and_time"><![CDATA[તારીખ અને સમય]]></string>
+    <string name="add_detail">ઇવેન્ટ ડીટેઈલ્સ ઉમેરો</string>
+    <string name="select_month">મહિનો પસંદ કરો</string>
+    <string name="user_name">વપરાશકર્તા નામ</string>
+    <string name="user_detail">વપરાશકર્તા વિગતો</string>
+    <string name="email">ઇમેઇલ :</string>
+    <string name="admin">એડમિન</string>
+    <string name="approved">મંજુર</string>
+    <string name="select_menu">મેનુ પસંદ કરો</string>
+    <string name="save">સાચવો</string>
+    <string name="confirm_logout">લૉગ આઉટની પુષ્ટિ કરો</string>
+    <string name="are_you_sure_you_want_to_logout">શું તમે ખરેખર લૉગ આઉટ કરવા માંગો છો?</string>
+    <string name="send">મોકલો</string>
+    <string name="enter_firstname">તમારું પ્રથમ નામ દાખલ કરો</string>
+    <string name="enter_lastname">તમારું છેલ્લું નામ દાખલ કરો</string>
+    <string name="reject">નામંજૂર કરવું</string>
+    <string name="approve">મંજૂર કરવું</string>
+    <string name="current_balance">વર્તમાન રકમ</string>
+    <string name="income">આવક</string>
+    <string name="expenses">ખર્ચ</string>
+    <string name="resolvedAdapter">ઉકેલાઈ ગઈ</string>
+    <string name="cancelledAdapter">રદ કર્યું</string>
+    <string name="shop_edited_successfully">દુકાન સફળતાપૂર્વક સંપાદિત કરી છે.</string>
+    <string name="are_you_sure_you_want_to_delete_this_vehicle">શું તમે ખરેખર આ વાહનને કાઢી નાખવા માંગો છો?</string>
+    <string name="deleted_successfully">સફળતાપૂર્વક કાઢી નાખ્યું</string>
+    <string name="updated_successfully">સફળતાપૂર્વક અપડેટ કર્યું</string>
+    <string name="vehicle_added_successfully">વાહન સફળતાપૂર્વક ઉમેર્યું</string>
+    <string name="bike">બાઇક</string>
+    <string name="car">કાર</string>
+    <string name="all_vehicle">બધા વાહનો</string>
+    <string name="maintenance_added_successfully">મેઈનટેનન્સ સફળતાપૂર્વક ઉમેરવામાં આવી</string>
+    <string name="complaints_added_successfully">ફરિયાદો સફળતાપૂર્વક ઉમેરવામાં આવી</string>
+    <string name="your_complaint_has_been_resolved_successfully">તમારી ફરિયાદ સફળતાપૂર્વક ઉકેલાઈ ગઈ છે</string>
+    <string name="complaint_update">ફરિયાદ અપડેટ</string>
+    <string name="employee_added_successfully">એમ્પ્લોય સફળતાપૂર્વક ઉમેરાયો</string>
+    <string name="events_added_successfully">ઇવેન્ટ્સ સફળતાપૂર્વક ઉમેરવામાં આવી</string>
+    <string name="events_updated_successfully">ઇવેન્ટ્સ સફળતાપૂર્વક અપડેટ કરવામા આવી</string>
+    <string name="shop_added_successfully">દુકાન સફળતાપૂર્વક ઉમેરી</string>
+    <string name="notification_send_successfully">સૂચના સફળતાપૂર્વક મોકલવામા આવી</string>
+    <string name="fill_event_detail">ઇવેન્ટ ટાઈટલ અથવા ઇવેન્ટ ડીટેઈલ ફિલ્ડ ખાલી છે</string>
+    <string name="user_updated_successfully">વપરાશકર્તા સફળતાપૂર્વક અપડેટ થયો</string>
+    <string name="complaint_updated_successfully">ફરિયાદ સફળતાપૂર્વક અપડેટ થઈ.</string>
+    <string name="update_app">અપડેટ</string>
+    <string name="first_or_last_name_field_is_empty">પ્રથમ અથવા છેલ્લું નામ ફિલ્ડ ખાલી છે</string>
+    <string name="add_payment_successfully">પેમેન્ટ સફળતાપૂર્વક ઉમેરવામાં આવ્યુ.</string>
+    <string name="rent_list">ભાડાની સૂચિ</string>
+    <string name="rents">ભાડું</string>
+    <string name="add_rent">ભાડું ઉમેરો</string>
+    <string name="edit_rent">ભાડું સંપાદિત કરો</string>
+    <string name="config_rent">ભાડાનુ માસ્ટર</string>
+    <string name="config">Config</string>
+    <string name="type_field_is_required">પ્રકાર ફીલ્ડ આવશ્યક છે</string>
+    <string name="title_field_is_required">ટાઈટલ ફીલ્ડ આવશ્યક છે</string>
+    <string name="need_information_field_is_required">જરુરી માહિતીની ફિલ્ડ આવશ્યક છે</string>
+    <string name="data_added_successfully">ડેટા સફળતાપૂર્વક ઉમેર્યો</string>
+    <string name="please_select_rent_type">કૃપા કરીને ભાડાનો પ્રકાર પસંદ કરો</string>
+    <string name="some_field_is_empty">કેટલાક ફિલ્ડ ખાલી છે</string>
+    <string name="rent_field_is_required">ભાડાનું ફિલ્ડ આવશ્યક છે</string>
+    <string name="are_you_sure_you_want_to_delete_this_rent">શું તમે ખરેખર આ ભાડુ કાઢી નાખવા માંગો છો?</string>
+    <string name="are_you_sure_you_want_to_delete_this_event">શું તમે ખરેખર આ ઇવેન્ટને કાઢી નાખવા માંગો છો?</string>
+    <string name="from_date">તારીખથી</string>
+    <string name="to_date">આજ સુધી</string>
+    <string name="rent">ભાડુ</string>
+    <string name="type">પ્રકાર</string>
+    <string name="select_type">પ્રકાર પસંદ કરો</string>
+    <string name="shop">દુકાન</string>
+    <string name="asset_reference">સંપત્તિ સંદર્ભ</string>
+    <string name="title">ટાઈટલ</string>
+    <string name="need_information">જરુરી માહિતી </string>
+    <string name="need_information_">જરુરી માહિતી: </string>
+    <string name="enter_rent">ભાડુ દાખલ કરો</string>
+    <string name="enter_type">પ્રકાર દાખલ કરો</string>
+    <string name="enter_title">ટાઈટલ દાખલ કરો</string>
+    <string name="enter_need_information">જરુરી માહિતી દાખલ કરો</string>
+    <string name="update_btn">અપડેટ કરો</string>
+    <string name="are_you_sure_you_want_to_delete_this_shop">શું તમે ખરેખર આ દુકાન કાઢી નાખવા માંગો છો?</string>
+    <string name="receipt_number">રસીદ નંબર</string>
+    <string name="enter_receipt_number">રસીદ નંબર દાખલ કરો</string>
+    <string name="add_expenses">ખર્ચ ઉમેરો</string>
+    <string name="add_payment_type">ચુકવણીનો પ્રકાર ઉમેરો</string>
+    <string name="rent_type">ભાડાનો પ્રકાર</string>
+    <string name="edit_payment_type">ચુકવણીનો પ્રકાર સંપાદિત કરો</string>
+    <string name="edit_rent_type">ભાડાનો પ્રકાર સંપાદિત કરો</string>
+    <string name="master">માસ્ટર</string>
+    <string name="my_vehicle">મારું વાહન</string>
+    <string name="discription">ડીટેઈલ્સ </string>
+    <string name="enter_discription">ડીટેઈલ્સ દાખલ કરો</string>
+    <string name="approve1">મંજૂર</string>
+    <string name="reject1">નામંજૂર</string>
+    <string name="exit_msg">બહાર નીકળવા માટે બે વાર દબાવો</string>
+    <string name="enter_mobile_no">મોબાઇલ નંબર દાખલ કરો</string>
+    <string name="add_mobile_no">મોબાઇલ નંબર ઉમેરો</string>
+    <string name="mobile_added_successfully">મોબાઇલ નંબર સફળતાપૂર્વક ઉમેર્યો</string>
+
+
+
+
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="isBackShow"
+            type="java.lang.Boolean" />
+
+
+        <variable
+            name="isOptionMenuShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isLogoShow"
+            type="java.lang.Boolean" />
+
+
+        <variable
+            name="isNavShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isLayoutShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isTextShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isShareShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isEditShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isCenterTextShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isAddFriendShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isBackRoundedShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isStartTextShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isNotificationShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isEditProfileShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isHeadPhonesShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isSpinnerShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isSettingShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isDropDownShow"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="topBarClickListener"
+            type="com.chat.interfaces.TopBarClickListener" />
+
+
+    </data>
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="noScroll|enterAlways"
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+            app:theme="@style/ToolbarTheme">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical|start"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/header_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dp10"
+                        android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/back)}"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+                        android:visibility="@{isBackShow? View.VISIBLE : View.GONE, default=visible}" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/header_nav_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dp10"
+                        android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/menu)}"
+                        android:src="@drawable/ic_navigation"
+                        android:visibility="@{isNavShow? View.VISIBLE : View.GONE, default=gone}" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/spinnerTopBar"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:spinnerMode="dropdown"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:dropDownWidth="@dimen/_70sdp"
+                            android:background="@drawable/spinner_bg"
+                            android:visibility="@{isSpinnerShow? View.VISIBLE : View.GONE, default=gone}" />
+
+                        <com.chat.custom.CTextViewEB
+                            android:id="@+id/tvTitleText"
+                            style="@style/txt_000_16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="@string/app_name"
+                            android:visibility="@{isTextShow? View.VISIBLE : View.GONE, default=visible}" />
+
+
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/down)}"
+                            android:src="@drawable/ic_down"
+                            android:visibility="@{isDropDownShow? View.VISIBLE : View.GONE, default=gone}" />
+
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivOptions"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/options)}"
+                        android:src="@drawable/ic_menu"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/_16sdp"
+                        android:visibility="@{isOptionMenuShow? View.VISIBLE : View.GONE, default=gone}" />
+
+                    <com.chat.custom.CTextViewEB
+                        android:id="@+id/tvEdit"
+                        style="@style/txt_000_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/edit_profile)}"
+                        android:text="@string/edit"
+                        android:visibility="@{isEditProfileShow? View.VISIBLE : View.GONE, default=gone}" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivSetting"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:onClick="@{(v)->topBarClickListener.onTopBarClickListener(v,@string/config)}"
+                        android:src="@drawable/ic_baseline_settings_24"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/_16sdp"
+                        android:visibility="@{isSettingShow? View.VISIBLE : View.GONE, default=gone}" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+</layout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:android="http://schemas.android.com/apk/res/android">
+    <entry>
+        <key>title</key>
+        <value>Update Available</value>
+    </entry>
+    <entry>
+        <key>desc</key>
+        <value>Please update app</value>
+    </entry>
+    <entry>
+        <key>forceUpdate</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>versionCode</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>apkLink</key>
+        <value>https://firebasestorage.googleapis.com/v0/b/apartment-management-74846.appspot.com/o/amazingstar-debug-1.0.apk?alt=media'&amp;'token=60f83206-033c-4db6-9234-86f6b4ae2a52</value>
+    </entry>
+</defaultsMap>
